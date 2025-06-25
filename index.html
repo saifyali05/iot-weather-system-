@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WEATHER MONITORING STATION</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-glow"></div>
+    <h1>WEATHER MONITORING STATION</h1>
+    <p class="subtitle">Live Environment & Air Quality Monitoring</p>
+  </header>
+
+  <main>
+    <div class="card aqi-card">
+      <span class="card-icon">🌿</span>
+      <h2>Air Quality Index</h2>
+      <div class="aqi-value aqi-good" id="air">42</div>
+      <div class="aqi-status" id="aqi-status">Good Air Quality</div>
+    </div>
+
+    <div class="card temp-card">
+      <span class="card-icon">🌡️</span>
+      <h2>Temperature</h2>
+      <div class="card-value" id="temp">25.3°C</div>
+    </div>
+
+    <div class="card humidity-card">
+      <span class="card-icon">💧</span>
+      <h2>Humidity</h2>
+      <div class="card-value" id="hum">60%</div>
+    </div>
+
+    <div class="card suggestion-card">
+      <span class="card-icon">💡</span>
+      <h2>Weather Suggestion</h2>
+      <div class="suggestion-text" id="msg">It's a great day for a walk on campus!</div>
+    </div>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Weather Monitoring Station - Real-time Environmental Data</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
