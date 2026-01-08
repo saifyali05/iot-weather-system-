@@ -11,8 +11,8 @@
 #define BLYNK_TEMPLATE_NAME "WEATHER MONITORING"
 #define BLYNK_AUTH_TOKEN "zt4P4lYvq6lr-dJ6bnAJ1WDMdUwET1-7"
 
-char ssid[] = "Istakbal";
-char pass[] = "Istakbal";
+char ssid[] = "your wifi name";
+char pass[] = "your password"
 
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
