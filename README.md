@@ -3,7 +3,7 @@ A fully functional IoT-based Weather Monitoring System built using ESP32, DHT11,
 
 This system continuously collects temperature, humidity, and air quality (AQI) data and displays it on a modern, responsive web interface hosted on Netlify, making it accessible from anywhere in the world.
 
-#🚀 Project Overview
+# 🚀 Project Overview
 This project combines embedded systems, IoT networking, and web development to create a smart environmental monitoring solution.
 
 The ESP32 reads sensor data and sends it over Wi-Fi to a web server. The web application (built with HTML, CSS, and JavaScript) fetches this data and visualizes it in real time, along with health-based air quality suggestions.
